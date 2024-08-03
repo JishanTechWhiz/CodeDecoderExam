@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.navbar .start-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+.navbar .start-button:hover {
+    background-color: #45a049;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.left-side, .right-side {
+    width: 50%;
+}
+
+.left-side h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.left-side p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.learn-more-button {
+    background-color: #4CAF50;;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+.learn-more-button:hover {
+    background-color: #007B9E;
+}
+
+.right-side img {
+    width: 100%;
+    height: auto;
+}
+
+
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #222;
+}
+
+.left-side-2, .right-side-2 {
+    width: 50%;
+}
+
+.left-side-2 h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.left-side-2 p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.right-side-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+.content-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1rem;
+
+}
+
+.left-side-3, .right-side-3 {
+    width: 50%;
+}
+
+.left-side-3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.left-side-3 p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.right-side-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-list {
+    list-style-type: square;
+    padding-left: 20px;
+    
+}
+
+.square-list li {
+    margin-bottom: 10px;
+}
+
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.header-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.header-container-2 h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header-container-2 p{
+    font-size: 1.3rem;
+}
+
+
+
+.header-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-container button:hover {
+    background-color: #45a049;
+}
